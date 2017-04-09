@@ -1,0 +1,141 @@
+PI42598 Filter with only WebFilter annotation does not get invoked
+PI43413 Deadlock in controller due to timing window in the recovery log service; servant times out  
+PI43752 AsyncContext.dispatch() dispatches to an incorrect URI
+PI45044 JSF problem in a Portlet environment: Form inputs inside a data table lose their values if validation fails 
+PI46218 DeploymentException occurs if different web modules in an enterprise application have CDI beans with the same name
+PI46699 A null value is returned when trying to use OpenJPA's DelegatingConnection's unwrap()
+PI47144 Merging an unmanaged entity multiple (3) times leads to an exception.      
+PI47483 [WARNING ] CWWKG0032W: Unexpected value specified for property
+PI47885 h:selectManyCheckbox and h:selectOneRadio components do not support f:ajax tags.                 
+PI48389 @PreDestory method invoked twice when @RequestScoped annotated on resource class and no @Context field in the class
+PI48674 LDAP BINARY ATTRIBUTE HANDLING IN VMM
+PI48725 Initial TLSv1.0 application data packet read into the wrong buffer by the SSL channel
+PI49272 Cross site scripting vulnerability in Oauth Service Provider CVE-2015-7417
+PI49486 MyFaces leaking file descriptors when reading stylesheet files 
+PI49508 At startup end users requests routed with HTTP 404 response
+PI49566 WebSockets might not close the connection if sessionIdleTimeout is set
+PI49639 CWWKC2259E: "Unexpected child element" in Liberty profile for EJB 2.1
+PI50108 JSF component binding with ViewScope beans does not work and causes an exception
+PI50291 Beans searched for through instance interface are not found 
+PI50399 NullPointerException thrown at com.ibm.ws.transport.iiop.security in Liberty profile
+PI50692 Data conversion issue for Multi-part MIME on mainframe (z/OS)
+PI50694 ClassCastException is thrown in JPA when QueryCache is enabled
+PI50806 NullPointerException in AbstractEJBRuntime.bindAllRemoteInterfacesToContextRoot when using ejbRemote-3.2 feature
+PI50915 MORE DETAILS WILL BE PROVIDED FOR SOME FAILURES IN WOLA CONNECTION VIA WEBSPHERE LIBERTY
+PI51038 Fix EL 3.0 ImportHandler support in JSF 2.2
+PI51130 Updating Liberty using group-mode Installation Manager does not set group-write bits
+PI51134 NullPointerException if all interceptors are on methods overriden, defined at class level or defined in a different method
+PI51171 ALLOW WOLA CLIENT TO RE-CONNECT AFTER A LIBERTY SERVER FAILURE OR RECYCLE
+PI51184 CWWKG0031E is received after commenting out a JNDI element and then adding it back at runtime
+PI51188 Login fails with mixed-case password phrase on z/OS.
+PI51329 Default JAVA not read from java.env when server is started with a PROC.
+PI51375 Application Manager change to make time waiting for apps at startup configurable
+PI51508 Reduce contention in AbstractOwbBean.equals use
+PI51523 HTTP Channel getCookieValue throws ArrayIndexOutOfBoundsException when cookie is only one-digit double quote "
+PI51552 Unwanted CWWKC1556W warning when application starting or server shutting down
+PI51740 The HTTP Channel could cause the Operating System to send an RST packet when the connection is closed
+PI51798 Liberty JAX-RS implementation may throw NullPointerException
+PI51841 Request timing can accidently remove an executing request from the active request list
+PI51878 DDLGEN SCRIPT IS SHIPPED IN ASCII INSTEAD OF EBCDIC IN LIBERTY 8.5.5.7
+PI51988 Invoking productInfo with valid command but bad option does not give errors
+PI52003 New "json" format added to binarylog command
+PI52014 User customized provider life cycle annotation @PostConstruct @PreDestroy not work or throw NullPoint Exception when stop server
+PI52181 LIBERTY 8.5.5 INCORRECTLY DISPLAYS WARNING MESSAGE ABOUT WSGUESTUSER MISSING THE RESTRICTED ATTRIBUTE
+PI52209 EntityNotFoundException in OpenJPA  
+PI52309 WebSphere Liberty default executor auto-tuning is disabled when an embedder overrides the default ThreadFactory.
+PI52391 BeanManger.equals can not distingiush between two BeanManagers for the same module after a restart
+PI52414 While using an upgrade request the quiesce operation did not complete
+PI52415 isFinished on a stream can return true before the stream is fully read
+PI52417 Host name resolution with collectives on z/OS may not resolve properly
+PI52566 Incorrectly returning CWWKS4306E when application URI is unprotected and Liberty receives an expired LtpaToken
+PI52756 CDI is activated and generates error with no existence of beans.xml
+PI52765 Provide a fix for Weld bug in CDI 1.2
+PI52845 SSL handshake fails due to a java.lang.IllegalArgumentException.
+PI52851 Changing JavaServer Pages (JSP) features between requests can result in a java.lang.NullPointerException.
+PI52936 Application classes will provide incorrect values when calling getProtectionDomain().getCodeSource().getLocation()
+PI53120 Datasource connection pool minimumPoolSize to be 0 by default for newly created datasources 
+PI53219 Wrong locale in the content when calling REST API to generate schema
+PI53220 SESSION ATTRIBUTE NOT STORED WITH ORACLE AS DB SESSION PERSISTENCE AND MULTIROWSCHEMA=TRUE
+PI53304 Auto scaling does not fully scale in to the minimum number of servers or scale out to the maximum number of servers
+PI53339 Liberty on z/OS fails to route messages to MSGLOG DD card
+PI53469 Z/OS CONNECT DOES NOT PRESERVE JSON PAYLOAD ELEMENT ORDERING AS SHOWN IN COPYBOOK FILES
+PI53471 Extended Unit of Work API may not throw errors back to the application when they occur during transaction end processing.
+PI53472 Thread safety defect in Unit of Work manager initialisation
+PI53555 JSF ViewScope implicit objects are not resolved in JSP pages
+PI53589 OpenJPA fastpath broken on Java 8
+PI53661 When inside an @Transactional declarative transaction, an error is thrown upon entering an @TransactionScoped context.
+PI53807 Improve message text when EJB SessionContext fails to serialize
+PI53842 BASIC AUTH NOT WORKING IN ZOS CONNECT DYNAMIC SERVICES
+PI53854 Unable to retrieve the REMOTE_USER from the WSRU header without using any security in Liberty
+PI53867 ScheduledExecutorService can temporarily leak classloaders for canceled tasks.
+PI54091 ZOSCONNECT AUTHORIZATION IN LIBERTY ON Z/OS
+PI54151 Unable to find the @Transactional annotation
+PI54152 Liberty profile JAX-RS 2.0 Client Side Built-in Providers Installation Performance Issue
+PI54212 Update one class in Apache Commons
+PI54230 ClassNotFoundException when using generic RA in Liberty
+PI54235 A redirect using an URI relative to the current request URL redirects to the wrong URL
+PI54414 Managed thread factory not available in ServletContextListener.contextInitialized
+PI54458 Wrong charset returned in page-not-found error when incorrect context root is requested.
+PI54701 The Servlet SPI was refactored to provide a complete set of SPI classes.
+PI54702 Null renderer-type tag causes custom TagLib xml parse error 
+PI54707 Intermittent ConcurrentModificationException thrown on startup when two Liberty apps use a privateLibraryRef.
+PI54855 LIBERTY PROFILE ON Z/OS DOES NOT PICK UP THE IFAUSAGE PROPERTIES FILE IN THE PRODUCT EXTENSION DIRECTORY.
+PI54886 When starting a Liberty server that has zoslocaladapters configured the sever abends with a System 106.
+PI54917 ConcurrentModificationException in collector manager
+PI55029 Liberty started task does not expand @WLP_INSTALL_DIR@ when used in the path specified by WLP_DEFAULT_JAVA_HOME in java.env.
+PI55031 FIX DEFECT IN EQUINOX FRAMEWORK TO INCORPORATE IN LIBERTY
+PI55038 Injection on implementation of ParamConverterProvider in JAX-RS 2.0 fails with NullPointerException
+PI55049 Non-persistent EJB Timer created while application is stopping may not be removed
+PI55077 Monitor group filter does not work with the component which are not using the code intstrumentation.
+PI55344 The job logs are producing a date such as 2016-12-28 as opposed to 2015-12-28 during the last week of the year
+PI55383 Client container application fails to run
+PI55547 Customized EJB ExceptionMapper can not be mapped to user defined Exception in more than two JAX-RS 2.0 Applications
+PI55670 Liberty File URLs contain incorrect number of '/' characters
+PI55874 Jobs containing split-flow may continue executing the (split-flow) even after the job is stopped.
+PI55891 SPI classes under com.ibm.ws.container.service reference some non-SPI classes
+PI55910 Logging in InvocationContextImpl outputs array ids instead of array contents
+PI55969 An update to the licenses in IBM WebSphere Application Server Liberty V8.5.5.9 is required.
+PI56019 The com.ibm.websphere.appserver.api.mediaServerControl.1.0_1.0.11.jar file in the dev/api/ibm directory is empty.
+PI56057 The MediaServerControl Javadoc provided contains accessibility issues.
+PI56076 Batch job logs do not contain the exception stack trace on step or job failures.
+PI56289 CALLS TO WOLA SERVICES BBOA1* MAY HANG WHEN LIBERTY SERVER IS CANCELLED OR ABENDS
+PI56340 OutOfMemoryError from org.apache.bval.cdi.BValExtension$Releasable objects not being released.
+PI56385 Message CWWKB0101I does not provide enough information to diagnose problems connecting to an Angel process.
+PI56452 NullPointerException in WABInstaller.java results in "Unable to install bundle" message
+PI56455 ClassNotFoundException loading the jaxws-2.2 and appSecurity-2.0 features
+PI56465 @TransactionScoped bean instances do not have their @PreDestroy-annotated destructors called.
+PI56466 Access to UserTransaction methods is not correctly disabled within nested @Transactional annotations
+PI56467 @Transactional rollBackOn/don'tRollbackOn scans the exception class hierarchy in the wrong direction
+PI56499 AbstractMethodError occurs when using JPA with beanvalidation-1.1 feature
+PI56529 @Transactional annotation processing code emits FFDC when encountering RuntimeExceptions in the dontRollBackOn list
+PI56644 SPI classes under com.ibm.ws.javaee.dd reference some non-SPI types
+PI56645 Configuration conflict warning message needs improvement
+PI56678 FileNotFoundException when application start-up fails.
+PI56831 Classloader.getResource("") does not return url to WEB-INF/classes
+PI56987 WLP_SKIP_UMASK=TRUE ISN'T WORKING WHEN LIBERTY SERVER IS STARTED FROM A STARTED TASK ON Z/OS
+PI57006 A scaling controller might not register a scaling member correctly when the member starts.
+PI57007 ConcurrentModificationException in com.ibm.ws.scaling.controller.topology.RepositoryMonitor$UpdateHandler
+PI57100 Remote partition wrongly ends in COMPLETED state when job is stopped, wrongly bypassing partition execution on restart.
+PI57239 Error when multiple threads attempt to authenticate to Mongo at the same time
+PI57265 Add OpenID Connect relying party (RP) config option to specify whether to do client side redirect
+PI57314 JSP classloading ignores the application parent-last classloader setting
+PI57413 CWWKE0702E: Could not resolve module: com.ibm.ws.management.security is logged when zosSecurity-1.0 is enabled.
+PI57542 IOExceptions is not thrown on inbound connections
+PI57668 Collective member certificate login fails with LDAP or Federated user registry
+PI57884 Blocking write is not allowed once WriteListener is enabled.
+PI57974 OSGi applications may be able to get access to OSGi services provided by Liberty feature bundles which are not considered API.
+PI57975 Deadlock may occur when creating a java util logging Logger
+PI57976 Objects of class NullInjectionPointImpl are visible in applicaiton code
+PI57980 Improper error when running Liberty scripts with unsupported Java version.
+PI57981 Changing SSLDefault may still require unnecessary configuration of defaultKeystore
+PI57982 In a Liberty collective, not all instances of an application are used when routing with Intelligent Management for Web Servers.
+PI58001 NullPointerException from org.eclipse.persistence.queries.ReadObjectQuery under heavy loads
+PI58002 Collective replica restart may fail
+PI58003 Cross-site scripting vulnerablility in OIDC client web application
+PI58005 With a Liberty image consisting of only EE7 features, importing javax.persistence 2.1 with WDT requires an internal attribute.
+PI58006 Feature updates are less likely to result in unnecessary component activation and deactivation
+PI58013 If an error occurs during a request with a ReadListener and is upgraded, a quiesce operation may not complete properly
+PI58014 Message's address is null in SipUdpConnLink
+PI58021 ClassNotFoundException if application contains a jar which contains other archives
+PI58035 When installing features using the installUtility jaccWeb-1.5 and ejbComponentMetadataDecorator-1.0 are not installed
+PI58049 The exitStatus after the restart of an executor is not properly being rolled back to the correct value.

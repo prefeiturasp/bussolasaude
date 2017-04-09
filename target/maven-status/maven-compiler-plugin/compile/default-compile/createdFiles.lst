@@ -1,0 +1,5 @@
+br/com/gorilahack/projectnavi/tos/MessageTO.class
+br/com/gorilahack/projectnavi/repository/WatsonRepository.class
+br/com/gorilahack/projectnavi/services/WatsonService.class
+br/com/gorilahack/projectnavi/resources/MessageResource.class
+br/com/gorilahack/projectnavi/tos/ResponseTO.class

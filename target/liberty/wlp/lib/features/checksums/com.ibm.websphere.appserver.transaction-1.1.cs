@@ -1,0 +1,12 @@
+#Sat Feb 27 17:10:30 GMT 2016
+lib/features/transaction-1.1.mf=22e526c80da4d8462b70b8ed3acc1286
+lib/com.ibm.tx.util_1.0.12.jar=bb1438fd6567b61d1bc44e5a3a7081f5
+lib/com.ibm.ws.tx.jta.extensions_1.0.12.jar=6baf6e6c71218ac4db664be2dead6cad
+dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.transaction_1.1-javadoc.zip=8720df5095714a114cad6c88c6ab2ab9
+lib/com.ibm.ws.recoverylog_1.0.12.jar=426060ec553c0cd52fddba8951c906b1
+lib/com.ibm.rls.jdbc_1.0.12.jar=9b57586fa471ebaf50fb3f05adaa5829
+dev/spi/ibm/com.ibm.websphere.appserver.spi.transaction_1.1.12.jar=3a25eeaa8ebcda608609a67bef0e3954
+lib/com.ibm.ws.transaction_1.0.12.jar=64348fe0b28b412d9009183b3d43c3e9
+lib/com.ibm.tx.jta_1.0.12.jar=475b87f07c8de641062a94c7020bfab1
+lib/com.ibm.ws.tx.embeddable_1.0.12.jar=f4124242f0b64e55919a93c23acb112a
+lib/com.ibm.tx.ltc_1.0.12.jar=e7885fce50aed28861e76a3e687f19c3

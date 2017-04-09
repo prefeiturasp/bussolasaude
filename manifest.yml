@@ -1,0 +1,7 @@
+---
+applications:
+ - name: projectnavi
+   random-route: true
+   path: target/projectnavi.war
+   memory: 512M
+   instances: 1

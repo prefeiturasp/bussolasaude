@@ -1,0 +1,31 @@
+********************************************************************************
+product = WebSphere Application Server 8.5.5.9 (wlp-1.0.12.cl50920160227-1523)
+wlp.install.dir = /workspace/java/projetos/EclipseNeon/projectnavi/target/liberty/wlp/
+java.home = /usr/lib/jvm/java-8-oracle/jre
+java.version = 1.8.0_121
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_121-b13)
+os = Linux (4.4.0-66-generic; amd64) (en_US)
+process = 22720@FabioMiranda
+********************************************************************************
+[26/03/17 02:04:51:586 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[26/03/17 02:04:51:610 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/8.5.5.9/lafiles/en.html
+[26/03/17 02:04:52:865 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 1,512 seconds
+[26/03/17 02:04:52:928 BRT] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[26/03/17 02:04:55:307 BRT] 00000010 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[26/03/17 02:04:56:188 BRT] 00000021 com.ibm.ws.security.token.ltpa.internal.LTPAKeyInfoManager   I CWWKS4103I: Creating the LTPA keys. This may take a few seconds.
+[26/03/17 02:04:56:704 BRT] 00000010 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications. 
+[26/03/17 02:04:56:824 BRT] 00000021 com.ibm.ws.security.token.ltpa.internal.LTPAKeyInfoManager   A CWWKS4104A: LTPA keys created in 0,636 seconds. LTPA key file: /workspace/java/projetos/EclipseNeon/projectnavi/target/liberty/wlp/usr/servers/defaultServer/resources/security/ltpa.keys
+[26/03/17 02:04:56:835 BRT] 00000021 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreator       I CWWKS4105I: LTPA configuration is ready after 0,655 seconds.
+[26/03/17 02:04:56:915 BRT] 00000024 com.ibm.ws.tcpchannel.internal.TCPPort                       E CWWKO0221E: TCP Channel defaultHttpEndpoint initialization did not succeed.  The socket bind did not succeed for host localhost and port 9080.  The port might already be in use.
+[26/03/17 02:04:57:737 BRT] 00000010 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[26/03/17 02:04:57:740 BRT] 00000010 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[26/03/17 02:04:57:742 BRT] 00000010 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[26/03/17 02:04:58:528 BRT] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [jsp-2.3, ejbLite-3.2, managedBeans-1.0, jsf-2.2, beanValidation-1.1, servlet-3.1, ssl-1.0, jndi-1.0, jsonp-1.0, appSecurity-2.0, jdbc-4.1, jaxrs-2.0, jaxrsClient-2.0, el-3.0, json-1.0, cdi-1.2, distributedMap-1.0, webProfile-7.0, websocket-1.1, jpa-2.1].
+[26/03/17 02:04:58:529 BRT] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 5,668 seconds.
+[26/03/17 02:04:58:530 BRT] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server defaultServer is ready to run a smarter planet.
+[26/03/17 02:07:10:109 BRT] 0000000e com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: The server defaultServer is stopping because the JVM is exiting.
+[26/03/17 02:07:10:112 BRT] 0000004f com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1100I: Begin server quiesce.
+[26/03/17 02:07:10:116 BRT] 0000004f com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[26/03/17 02:07:10:197 BRT] 0000004f com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[26/03/17 02:07:10:338 BRT] 0000000f com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Domingo, 26 de Março de 2017 at 02:07. The server defaultServer is shutting down.
+[26/03/17 02:07:10:862 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server defaultServer stopped after 2 minutes, 19,51 seconds.
